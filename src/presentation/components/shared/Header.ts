@@ -6,10 +6,18 @@ export function Header() {
   $styles.innerHTML += /*css*/ `
     .header {
       display: flex;
-      justify-content: space-between;
+      flex-direction: column;
+      gap: 1rem;
       align-items: center;
-      padding: 1rem;
+      padding: 1rem 2rem;
       background-color: var(--second-color);
+    }
+
+    @media (min-width: 768px) {
+      .header {
+         flex-direction: row;
+        justify-content: space-between;
+      }
     }
   `;
 

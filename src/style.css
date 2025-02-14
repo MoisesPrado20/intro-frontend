@@ -1,3 +1,4 @@
+
 /* Custom Properties */
 
 :root {
@@ -7,6 +8,7 @@
   --second-alpha-color: rgba(20, 25, 45, 0.75);
   --third-color: #501464;
   --third-alpha-color: rgba(80, 20, 100, 0.75);
+
   --white-color: #FFFFFF;
   --gray-light-color: #F3F3F3;
   --gray-color: #CCCCCC;
@@ -15,11 +17,32 @@
   --link-color: #509EE3;
   --title-color: #333333;
   --text-color: #222222;
+  
   --white-alpha-color: rgba(255, 255, 255, 0.5);
   --black-alpha-color: rgba(0, 0, 0, 0.5);
   --font: 'Raleway', sans-serif;
   --max-width: 1200px;
   --header-height: 4rem;
+
+  --cerulean-blue-100: #E2E6F7;
+  --cerulean-blue-300: #A8B6E8;
+  --cerulean-blue-400: #7E91DC;
+  --cerulean-blue-600: #4A52C4;
+  --cerulean-blue-700: #4143B4;
+  --cerulean-blue-800: #3B3A93;
+  --cerulean-blue-950: #242348;
+
+  --emerald-300: #6EE7B7;
+  --emerald-500: #10B981;
+  --emerald-700: #047857;
+
+  --slate-100: #F1F5F9;
+  --slate-200: #E2E8F0;
+  --slate-400: #94A3B8;
+  --slate-500: #64748B;
+  --slate-700: #334155;
+  --slate-800: #1E293B;
+  --slate-900: #0F172A;
 }
 
 /* Reseteo */
@@ -43,12 +66,12 @@ body {
 
 h1 {
   margin: 0;
-  font-size: 2rem;
+  font-size: 2.9188rem;
 }
 
 h2 {
   margin: 0;
-  font-size: 1.5rem;
+  font-size: 1.7994rem;
 }
 
 h3 {
@@ -58,7 +81,7 @@ h3 {
 
 h4 {
   margin: 0;
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 
 h5 {
@@ -108,7 +131,7 @@ a{
 
 .full-screen{
   width: 100%;
-  min-height: 100vh;
+  min-height: calc(100vh - var(--header-height));
 }
 
 .section {

@@ -1,17 +1,18 @@
-import { Avatar } from "../components/shared/Avatar";
+import { Profile } from "../components/profile";
 
-export function HomePage(){
+export function HomePage() {
   const $containerHome = document.createElement("section");
 
-  $containerHome.innerHTML = /*html*/`
-    <h1>Home</h1>
-  `;
+  const $mainChatContainer = document.createElement("section");
 
-  $containerHome.appendChild(Avatar({
-    urlImg: "/avatar.pg",
-    fallback: "Hola mundo",
-  }));
+  const $chatsContainer = document.createElement("div");
+  $chatsContainer.textContent = "Chats";
 
+
+  $mainChatContainer.appendChild(Profile());
+  $mainChatContainer.appendChild($chatsContainer);
+
+  $containerHome.appendChild($mainChatContainer);
 
   return $containerHome;
 }

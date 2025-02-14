@@ -1,0 +1,303 @@
+{
+  "authenticatedUser": {
+    "userId": "1"
+  },
+  "users": [
+    {
+      "id": "1",
+      "avatar": "./avatars/avatar-john.png",
+      "firstName": "John",
+      "lastName": "Doe",
+      "email": "john.doe@example.com",
+      "password": "1234",
+      "statusId": 1,
+      "bio": "Programar es el arte de dedicarle a otro humano lo que quieres que la computadora haga"
+    },
+    {
+      "id": "2",
+      "avatar": "./avatars/avatar-admoises.png",
+      "firstName": "ADmoises",
+      "lastName": "Fernández",
+      "email": "admoises@example.com",
+      "password": "1234",
+      "statusId": 1,
+      "bio": "Si puedes imaginarlo puedes programarlo"
+    },
+    {
+      "id": "3",
+      "avatar": "./avatars/avatar-justin.png",
+      "firstName": "</Justin>",
+      "lastName": "Dev",
+      "email": "selena.torres@example.com",
+      "password": "1234",
+      "statusId": 1,
+      "bio": "I choose to be patient"
+    },
+    {
+      "id": "4",
+      "avatar": "./avatars/avatar-selena.png",
+      "firstName": "Selena",
+      "lastName": "Torres",
+      "email": "selena.torres@example.com",
+      "password": "1234",
+      "statusId": 4,
+      "bio": "Diseñadora UX/UI apasionada en el mundo de la experiencia de usuario"
+    },
+    {
+      "id": "5",
+      "avatar": "https://randomuser.me/api/portraits/men/1.jpg",
+      "firstName": "Carlos",
+      "lastName": "Pérez",
+      "email": "carlos.perez@example.com",
+      "password": "1234",
+      "statusId": 1,
+      "bio": "Desarrollador web amante de la tecnología 🚀"
+    },
+    {
+      "id": "6",
+      "avatar": "https://randomuser.me/api/portraits/women/2.jpg",
+      "firstName": "María",
+      "lastName": "González",
+      "email": "maria.gonzalez@example.com",
+      "password": "1234",
+      "statusId": 2,
+      "bio": "Apasionada del diseño gráfico 🎨"
+    },
+    {
+      "id": "7",
+      "avatar": "https://randomuser.me/api/portraits/men/3.jpg",
+      "firstName": "Luis",
+      "lastName": "Ramírez",
+      "email": "luis.ramirez@example.com",
+      "password": "1234",
+      "statusId": 3,
+      "bio": "Manager de proyectos y fan del café ☕"
+    },
+    {
+      "id": "8",
+      "avatar": "https://randomuser.me/api/portraits/women/4.jpg",
+      "firstName": "Ana",
+      "lastName": "Fernández",
+      "email": "ana.fernandez@example.com",
+      "password": "1234",
+      "statusId": 4,
+      "bio": "Siempre buscando nuevas aventuras ✈️"
+    }
+  ],
+  "statuses": [
+    {
+      "id": "1",
+      "name": "en línea"
+    },
+    {
+      "id": "2",
+      "name": "ocupado"
+    },
+    {
+      "id": "3",
+      "name": "ausente"
+    },
+    {
+      "id": "4",
+      "name": "desconectado"
+    }
+  ],
+  "chats": [
+    {
+      "id": "1",
+      "type": "individual",
+      "name": "ADmoises Fernández",
+      "participants": 2,
+      "lastMessage": "Muy buena aplicación la de react  con TS",
+      "lastMessageTime": "2025-12-13T15:34:00Z",
+      "isMuted": true,
+      "unreadCount": 0
+    },
+    {
+      "id": "2",
+      "type": "individual",
+      "name": "</Justin> Dev",
+      "participants": 3,
+      "lastMessage": "Hola como estas, todo bien?",
+      "lastMessageTime": "2025-12-13T11:55:00Z",
+      "isMuted": true,
+      "unreadCount": 0
+    },
+    {
+      "id": "3",
+      "type": "individual",
+      "name": "Selena Torres",
+      "participants": 4,
+      "lastMessage": "En la tarea hay que aplicar backend?",
+      "lastMessageTime": "2024-12-29T00:00:00Z",
+      "isMuted": true,
+      "unreadCount": 0
+    },
+    {
+      "id": "4",
+      "type": "group",
+      "name": "“HTML, CSS Y JS  ❤️”",
+      "participants": [
+        2,
+        3,
+        5
+      ],
+      "lastMessage": "Buen día grupo, viva el mundo de la web.",
+      "lastMessageTime": "2025-02-13T17:29:00Z",
+      "isMuted": true,
+      "unreadCount": 0
+    },
+    {
+      "id": "5",
+      "type": "group",
+      "name": "App de chat Fullstack",
+      "participants": [
+        1,
+        3,
+        4
+      ],
+      "lastMessage": "Para cuando la 2da parte de bases de frontend para react?",
+      "lastMessageTime": "2025-01-13T15:56:00Z",
+      "isMuted": true,
+      "unreadCount": 0
+    },
+    {
+      "id": "6",
+      "type": "individual",
+      "name": "María González",
+      "participants": 6,
+      "lastMessage": "¿Cómo te fue con el proyecto?",
+      "lastMessageTime": "2025-01-08T10:30:00Z",
+      "isMuted": false,
+      "unreadCount": 2
+    },
+    {
+      "id": "7",
+      "type": "individual",
+      "name": "Luis Ramírez",
+      "participants": 7,
+      "lastMessage": "¡Nos vemos mañana en la reunión!",
+      "lastMessageTime": "2025-01-08T09:45:00Z",
+      "isMuted": true,
+      "unreadCount": 0
+    },
+    {
+      "id": "8",
+      "type": "individual",
+      "name": "Ana Fernández",
+      "participants": 8,
+      "lastMessage": "Gracias por la ayuda. 😊",
+      "lastMessageTime": "2025-01-07T18:00:00Z",
+      "isMuted": false,
+      "unreadCount": 5
+    },
+    {
+      "id": "9",
+      "type": "group",
+      "name": "Equipo de Desarrollo",
+      "participants": [
+        5,
+        6,
+        8
+      ],
+      "lastMessage": "Terminemos el sprint hoy.",
+      "lastMessageTime": "2025-01-08T11:00:00Z",
+      "isMuted": false,
+      "unreadCount": 3
+    },
+    {
+      "id": "10",
+      "type": "group",
+      "name": "Amigos del Café",
+      "participants": [
+        5,
+        7,
+        8,
+        4
+      ],
+      "lastMessage": "¿Quién quiere un café?",
+      "lastMessageTime": "2025-01-08T08:45:00Z",
+      "isMuted": true,
+      "unreadCount": 0
+    }
+  ],
+  "messages": [
+    {
+      "id": "1",
+      "chatId": 1,
+      "fromUserId": 2,
+      "toUserId": 1,
+      "content": "Hola Carlos, ¿estás disponible?",
+      "timestamp": "2025-01-08T10:15:00Z",
+      "isRead": true
+    },
+    {
+      "id": "2",
+      "chatId": 1,
+      "fromUserId": 1,
+      "toUserId": 2,
+      "content": "Sí, ¿qué necesitas?",
+      "timestamp": "2025-01-08T10:17:00Z",
+      "isRead": true
+    },
+    {
+      "id": "3",
+      "chatId": 1,
+      "fromUserId": 2,
+      "toUserId": 1,
+      "content": "¿Cómo te fue con el proyecto?",
+      "timestamp": "2025-01-08T10:30:00Z",
+      "isRead": false
+    },
+    {
+      "id": "4",
+      "chatId": 2,
+      "fromUserId": 3,
+      "toUserId": 1,
+      "content": "¡Nos vemos mañana en la reunión!",
+      "timestamp": "2025-01-08T09:45:00Z",
+      "isRead": false
+    },
+    {
+      "id": "5",
+      "chatId": 3,
+      "fromUserId": 4,
+      "toUserId": 1,
+      "content": "Gracias por la ayuda. 😊",
+      "timestamp": "2025-01-07T18:00:00Z",
+      "isRead": false
+    },
+    {
+      "id": "6",
+      "chatId": 4,
+      "fromUserId": 2,
+      "content": "¿Ya subieron los cambios al repositorio?",
+      "timestamp": "2025-01-08T10:45:00Z",
+      "isRead": false
+    },
+    {
+      "id": "7",
+      "chatId": 4,
+      "fromUserId": 1,
+      "content": "Sí, ya los revisé.",
+      "timestamp": "2025-01-08T10:50:00Z",
+      "isRead": true
+    },
+    {
+      "id": "8",
+      "chatId": 4,
+      "fromUserId": 4,
+      "content": "Terminemos el sprint hoy.",
+      "timestamp": "2025-01-08T11:00:00Z",
+      "isRead": false
+    },
+    {
+      "id": "9",
+      "chatId": 5,
+      "fromUserId": 3,
+      "content": "¿Quién quiere un café?",
+      "timestamp": "2025-01-08T08:45:00Z",
+      "isRead": true
+    }
+  ]
+}

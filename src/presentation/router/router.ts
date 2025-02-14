@@ -1,38 +1,65 @@
-import { BryanPage, DiegoPage, HomePage, JonatanPage, JustinPage, LautaroPage, MiguelPage } from "../pages";
+import {
+  BryanPage,
+  DiegoPage,
+  HomePage,
+  JonatanPage,
+  JustinPage,
+  LautaroPage,
+  MiguelPage,
+} from "../pages";
+
+export const chatRoute = [
+
+];
+
+export const mainRoutes = [
+  {
+    name: "Home",
+    url: "#/",
+    page: HomePage,
+  },
+  {
+    name: "Bryan",
+    url: "#/bryan",
+    page: BryanPage,
+  },
+  {
+    name: "Lautaro",
+    url: "#/lautaro",
+    page: LautaroPage,
+  },
+  {
+    name: "Justin",
+    url: "#/justin",
+    page: JustinPage,
+  },
+  {
+    name: "Diego",
+    url: "#/diego",
+    page: DiegoPage,
+  },
+  {
+    name: "Jonatan",
+    url: "#/jonatan",
+    page: JonatanPage,
+  },
+  {
+    name: "Miguel",
+    url: "#/miguel",
+    page: MiguelPage,
+  },
+  ...chatRoute,
+];
 
 export function Router() {
   const $main = document.querySelector<HTMLDivElement>("#main")!;
-  $main.classList.add("container","full-screen");
+  $main.classList.add("container", "full-screen");
 
   const { hash } = location;
 
   $main.innerHTML = "";
 
-  if (!hash || hash === "#/") {
-    $main.appendChild(HomePage());
-  }
+  const page = mainRoutes.find((page) => page.url === hash);
 
-  if (hash === "#/bryan") {
-   $main.appendChild(BryanPage());
-  }
-
-  if (hash === "#/lautaro") {
-    $main.appendChild(LautaroPage());
-  }
-
-  if(hash === "#/justin"){
-    $main.appendChild(JustinPage());
-  }
-
-  if(hash === "#/diego"){
-    $main.appendChild(DiegoPage());
-  }
-
-  if (hash === "#/jonatan") {
-    $main.appendChild(JonatanPage());
-  }
-
-  if (hash === "#/miguel") {
-    $main.appendChild(MiguelPage());
-  }
+  page ? $main.appendChild(page.page()) : $main.appendChild(HomePage());
 }
